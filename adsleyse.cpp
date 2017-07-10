@@ -250,6 +250,6 @@ int main(int argc, char* argv[]){
 	nt->Write();
 	inf->Close();//The original code didn't close the input file which lead to errors which fecked it up. This line fixes that.
 	ouf->Close();
-        cout << "Dooooonnnnnnnnnnnnneeeeeeee" << endl;
+        cout << endl << "Dooooonnnnnnnnnnnnneeeeeeee" << endl;
 	return 0;
 }
