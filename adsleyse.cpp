@@ -10,7 +10,7 @@ using namespace std;
 
 //I (Phil) got this code from Ben Kay who got it from Jeff, 'a postdoc of considerable awesomeness', at Manchester. There are two changes from the original code which are noted at the lines where they occur.
 
-//Compile using: g++ adsleyse.cpp `root-config --libs --cflags` -o adsleyse
+//Compile using: g++ adsleyse.cpp `root-config --cflags --libs ` -o adsleyse
 //Possibly with more gubbins on Ubuntu if the library linking is being odd.
 
 //If you need to talk to someone about this, I can try to help. I didn't write it so I might not be the right person, though. E-mail padsley@gmail.com. Also, honestly, the name is only that because I was trying to not get it confused with the original and this was an easy way to remember...
